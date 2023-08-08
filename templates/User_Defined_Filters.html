@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <!--   User Defined Filters    -->
+        <h1>user define filters</h1>
+        <h1>{{ data }}</h1> <br>
+        <h1>{{ data|swapping }}</h1> <br>
+        <h1>{{ data|wordcount }}</h1> <br>
+        <h2>{{data|remove:'a'}}</h2> <br>
+        
+    <!-- Built in Filters -->
+        <h1>{{data|length}}</h1> <br>
+        <h1>{{data|upper}}</h1>
+    </center>
+</body>
+</html>
